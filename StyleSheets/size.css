@@ -1,0 +1,375 @@
+
+/* イベント発生時のグリッドを大小にするCSS */
+
+
+/* 作品グリッド1大小 */
+.workbigsize1
+{
+  grid-template-columns: 1fr 60px;
+    
+
+  grid-row: 1/3;
+  grid-column: 2/2;
+
+  background-color: #e77c8a;
+  font-size: 30px;
+  text-align: center;
+  line-height: 100px;
+  cursor: pointer;
+
+  top: 150%;
+
+
+
+
+  width: 50%;
+  right:  50%;
+
+  text-align: left;
+
+ 
+  box-sizing: border-box;
+ 
+  z-index: 3;
+/* 
+  //フェード */
+  animation: fadein 2s;
+
+}
+.worksmall1
+{
+  
+  grid-row: 1/3;
+  grid-column: 2/2;
+
+  background-color:#e77c8a;
+  font-size: 20px;
+  text-align: center;
+  line-height: 20px;
+
+  cursor: pointer;
+
+  top: 150%;
+  
+
+
+  
+  text-align: left;
+
+
+  box-sizing: border-box;
+  transition: 0.6s;
+
+  animation: fadeout 2s;
+ 
+
+}
+
+/* 作品グリッド2大小 */
+.workbigsize2
+{
+  grid-template-columns: 1fr 60px;
+    
+
+  grid-row: 1/3;
+  grid-column: 2/2;
+
+  background-color: #ffd700;
+  font-size: 30px;
+  text-align: center;
+  text-align: left;
+  line-height: 100px;
+  cursor: pointer;
+
+  top: 150%;
+
+
+
+  right:  80%;
+
+  width: 50%;
+
+
+  box-sizing: border-box;
+
+  z-index: 3;
+  animation: fadein 2s;
+}
+.worksmall2
+{
+  
+  grid-row: 1/3;
+  grid-column: 2/2;
+
+  background-color:#ffd700;
+  font-size: 20px;
+  text-align: center;
+  line-height: 20px;
+
+  cursor: pointer;
+
+  top: 150%;
+  
+
+
+ 
+  text-align: left;
+
+
+  box-sizing: border-box;
+  animation: fadeout 2s;
+}
+
+/* 作品グリッド3大小 */
+.workbigsize3
+{
+  grid-template-columns: 1fr 60px;
+    
+
+  grid-row: 1/3;
+  grid-column: 2/2;
+
+  background-color: #dc143c;
+  font-size: 30px;
+  text-align: center;
+  line-height: 100px;
+  cursor: pointer;
+
+  top: 150%;
+
+
+
+
+ 
+  width: 50%;
+ right:  50%;
+
+  text-align: left;
+
+ 
+  box-sizing: border-box;
+ 
+  z-index: 3;
+  animation: fadein 2s;
+}
+.worksmall3
+{
+  
+  grid-row: 1/3;
+  grid-column: 2/2;
+
+  background-color:#dc143c;
+  font-size: 20px;
+ 
+  line-height: 20px;
+
+  cursor: pointer;
+
+  top: 150%;
+  
+
+
+  text-align: center;
+  text-align: left;
+
+
+  box-sizing: border-box;
+  animation: fadeout 2s;
+}
+
+
+/* 作品グリッド4大小 */
+.workbigsize4
+{
+  grid-template-columns: 1fr 60px;
+    
+
+  grid-row: 1/3;
+  grid-column: 2/2;
+
+  background-color: #9370db;
+  font-size: 30px;
+  text-align: center;
+  text-align: left;
+  line-height: 100px;
+  cursor: pointer;
+
+  top: 150%;
+  right:  80%;
+
+  width: 50%;
+
+ 
+  z-index: 3;
+  box-sizing: border-box;
+  animation: fadein 2s;
+  
+  
+}
+.worksmall4
+{
+  
+  grid-row: 1/3;
+  grid-column: 2/2;
+
+  background-color:#9370db;
+  font-size: 20px;
+  text-align: center;
+  line-height: 20px;
+
+  cursor: pointer;
+
+  top: 150%;
+  
+
+
+
+  text-align: left;
+
+
+  box-sizing: border-box;
+  animation: fadeout 2s;
+}
+
+/* 作品グリッド5大小 */
+.workbigsize5
+{
+  grid-template-columns: 1fr 60px;
+    
+
+  grid-row: 1/3;
+  grid-column: 2/2;
+
+  background-color: #add8e6;
+  font-size: 30px;
+  text-align: center;
+  text-align: left;
+  line-height: 100px;
+  cursor: pointer;
+
+  top: 150%;
+  
+
+  width: 50%;
+right:  50%;
+
+
+  box-sizing: border-box;
+ 
+  
+  z-index: 3;
+
+  animation: fadein 2s;
+}
+.worksmall5
+{
+  
+  grid-row: 1/3;
+  grid-column: 2/2;
+
+  background-color:#add8e6;
+  font-size: 20px;
+  text-align: center;
+  line-height: 20px;
+
+  cursor: pointer;
+
+  top: 150%;
+  
+
+
+
+  text-align: left;
+
+
+  box-sizing: border-box;
+  animation: fadeout 2s;
+}
+
+/* 得意なことグリッド大小 */
+.delightedbigsize6
+{
+  grid-template-columns: 1fr 60px;
+    
+
+  grid-row: 1/3;
+  grid-column: 2/2;
+
+  background-color: #ff7f50;
+  font-size: 30px;
+  text-align: center;
+  text-align: left;
+  line-height: 100px;
+  cursor: pointer;
+
+  top: 150%;
+
+  width: 50%;
+right:  80%;
+
+  box-sizing: border-box;
+ 
+  
+  z-index: 3;
+  animation: fadein 2s;
+}
+.delightedsmall6
+{
+  
+  grid-row: 1/3;
+  grid-column: 2/2;
+
+  background-color:#ff7f50;
+  font-size: 20px;
+  text-align: center;
+  line-height: 20px;
+
+  cursor: pointer;
+
+  top: 150%;
+  
+
+
+
+  text-align: left;
+
+
+  box-sizing: border-box;
+  animation: fadeout 2s;
+}
+#fontsize
+{
+   font-size: 4;
+}
+#mypr
+{
+  font-size: 20%;
+  text-align: center;
+  text-align: left;
+}
+
+
+
+
+/* フェードインとフェードアウト */
+@keyframes fadein {
+  0% {
+      opacity: 0;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}
+
+@keyframes fadeout {
+  0% {
+      opacity: 0;
+  }
+ 
+
+  100% {
+      opacity: 1;
+     display: none;
+  }
+}

@@ -1,0 +1,117 @@
+
+/* プロフィール欄
+名前
+誕生日
+趣味
+長所
+短所
+出身学校
+写真 */
+#achievement
+{
+    color: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    position:absolute;
+
+    top: 50%;
+    text-align: center;
+    padding: 8px;
+    font-size: 32px;
+
+}
+#name{
+
+    color: #ff8c00;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+
+    top: 10%;
+    text-align: left;
+    padding: 30px;
+    font-size: 20px;
+
+}
+
+#birthday{
+
+    color: #ff0;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+
+    top: 15%;
+    text-align: left;
+    padding: 35px;
+    font-size: 20px;
+
+}
+#hobby{
+
+    color: #4169e1;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+
+    top: 20%;
+    text-align: left;
+    padding: 40px;
+    font-size: 20px;
+
+}
+#advantages{
+
+    color: #ff4500;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+
+    top: 25%;
+    text-align: left;
+    padding: 45px;
+    font-size: 20px;
+
+}
+#Disadvantages{
+
+    color: #228b22;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+
+    top: 30%;
+    text-align: left;
+    padding: 55px;
+    font-size: 20px;
+
+}
+#school
+{
+    color:#00bfff;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+
+    top: 35%;
+    text-align: left;
+    padding: 60px;
+    font-size: 20px;
+}
+#Photo
+{
+  
+    
+    position:absolute;
+    left: 70%;
+    top: 10%;
+
+  
+
+    width: 300px;
+    height: 300px; 
+    margin: auto;
+    overflow: hidden;
+
+
+}

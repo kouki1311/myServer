@@ -1,4 +1,5 @@
 const express=require("express");
+
 const app=express();
 const port=3000;
 
@@ -17,5 +18,5 @@ app.get("/reset",(req,res)=>{
 });
 //サーバを起動
 app.listen(port,()=>{
-    console.log(`Running at http://localhost:${port}/`);
+    consonodle.log(`Running at http://localhost:${port}/`);
 })

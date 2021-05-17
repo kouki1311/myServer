@@ -1,0 +1,39 @@
+
+
+/* イベント発生時に黒くするCSS */
+
+ #cover
+{
+    background: #000;
+    opacity: .6;
+
+    width: 1000%;
+    height: 1000%;
+    position: absolute;
+    top:  0;
+    left: 0;
+    display: none;
+    z-index: 2;
+}
+#cover.menu-open
+{
+display: block;
+
+
+}
+
+.close,#open{
+    float: right;
+
+    cursor: pointer;
+}
+.close
+{
+    display:none;
+}
+#cover.menu-open
+{
+    display: block;
+}
+
+ 
