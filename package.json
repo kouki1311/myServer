@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kouki1311/myServer/issues"
   },
-  "homepage": "https://github.com/kouki1311/myServer#readme"
+  "homepage": "https://github.com/kouki1311/myServer#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
